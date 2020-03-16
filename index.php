@@ -8,16 +8,17 @@
 </head>
 <body>
     <center><h1>PANTAU CORONA BERSAMA SAMA</h1></center>
-</div>
-<center><?php
+</div><center>
+    <?php
 if(isset($_GET["negara"])){
 $negara = $_GET["negara"];
 ambil($negara);
 }else{
-    $negara = 'indonesia';
+    $negara = 'Indonesia';
     ambil($negara);
 }
-?></center>
+?>
+</center>
 </body>
 
 </html>
