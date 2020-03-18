@@ -4,21 +4,28 @@ h1 {
 
 body {
   color: var(--font-color);
+  background-color: #d1d8e0;
 }
 
 table {
   font-family: Arial, Helvetica, sans-serif;
-  color: #666;
-  text-shadow: 1px 1px 0px #fff;
-  background: #eaebec;
-  border: #ccc 1px solid;
+  color: #26292b;
+  background: none;
+  border: none;
 }
 
 table th {
-  padding: 15px 35px;
-  border-left: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
-  background: #ededed;
+  padding: 5px 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: 1px solid #043353;
+  border-left: 1px solid #043353;
+  border-bottom: 1px solid #043353;
+  border-top: 1px solid #043353;
+  background: #6495ED;
+  font-family: serif;
 }
 
 table th:first-child {
@@ -41,8 +48,8 @@ table td {
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #e0e0e0;
   border-left: 1px solid #e0e0e0;
-  background: #fafafa;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: #d08888;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0505), to(#ff0202));
   background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
 }
 
@@ -63,14 +70,118 @@ table tr:last-child td:last-child {
 }
 
 table tr:hover td {
-  background: #f2f2f2;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: #e22929;
+  background: -webkit-gradient(cubic-bezier(0.3, -0.34, 1, 1), left top, left bottom, from(#f2f2f2), to(#f0f0f0));
   background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
 }
 
 legend {
-  display: block;
+  font-family: sans-serif;
   padding-left: 8px;
   padding-right: 8px;
   border: none;
+  background-color: beige;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+fieldset {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 480px;
+  height: 45px;
+  border-color: aliceblue;
+  background-color: #fed330;
+}
+
+select {
+  padding-left: 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #2d98da;
+  border: none;
+}
+
+th.dead {
+  background-color: #d63031;
+}
+
+th.dead:hover {
+  background-color: #fc5c65;
+}
+
+th.sembuh {
+  background-color: #26de81;
+}
+
+th.sembuh:hover {
+  background-color: #32ff7e;
+}
+
+th.negara {
+  background-color: #fc5c65
+}
+
+th.negara:hover {
+  background-color: #f97b82
+}
+
+th.negara1 {
+  background-color: #45aaf2
+}
+
+th.negara1:hover {
+  background-color: #73c2fb
+}
+
+th.kasus {
+  background-color: #2bcbba;
+}
+
+th.kasus:hover {
+  background-color: #1ef9e2;
+}
+
+th.aktif {
+  background-color: #706fd3;
+}
+
+th.aktif:hover {
+  background-color: #a4a3f5;
+}
+
+th.peta {
+  background-color: #a55eea;
+}
+
+input[type="submit"] {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #f7b731;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #f7b731;
+  font-weight: bold;
 }

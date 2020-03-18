@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <head>
     <title>LIVE UPDATE CORONA</title>
-    <link rel="shortcut icon" href="/img/virus.ico">
+    <link rel="icon" href="/a.ico">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta http-equiv="refresh" content="60">
+    <!-- <meta http-equiv="refresh" content="60"> -->
     <?php include 'data.php';?>
 </head>
 <body>
